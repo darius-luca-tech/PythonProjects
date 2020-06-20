@@ -23,7 +23,7 @@ def main():
         return                                                         
 
 
-    imgOriginalScene  = cv2.imread("LicPlateImages/poza.jpg")             
+    imgOriginalScene  = cv2.imread("LicPlateImages/download.jpg")             
 
     if imgOriginalScene is None:                           
         print("\nerror: image not read from file \n\n")  
@@ -112,6 +112,14 @@ def writeLicensePlateCharsOnImage(imgOriginalScene, licPlate):
 ###################################################################################################
 if __name__ == "__main__":
     main()
+
+
+
+
+
+
+
+
 
 
 
